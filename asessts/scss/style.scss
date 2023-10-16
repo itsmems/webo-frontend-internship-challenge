@@ -54,11 +54,20 @@ body {
       }
     }
     &_buttons_right {
+      display: flex;
+      align-items: center;
       a {
         text-decoration: none;
         margin: 0.5rem;
-        color: #fff;
+        color: #000;
         border-radius: 1px solid #4f46ba;
+      }
+      &_bt {
+        a {
+          color: #fff;
+        }
+        background-color: #4f46ba;
+        padding: 0.5rem 0.7rem;
       }
     }
   }
@@ -167,4 +176,33 @@ body {
   //     top: 0;
   //   }
   // }
+}
+
+.brand_section {
+  width: 100%;
+  height: 25vh;
+  background: #f5f6f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .title {
+    color: #000;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .brand_img{
+    display: flex;
+    align-items: center;
+    img{
+      padding: 1rem;
+    }
+  }
 }
