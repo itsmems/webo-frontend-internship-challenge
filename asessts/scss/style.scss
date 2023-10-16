@@ -274,7 +274,6 @@ body {
   justify-content: space-evenly;
   width: 100%;
   height: 60vh;
-  background-color: #000;
   position: relative;
   padding-top: 2rem;
 
@@ -336,14 +335,12 @@ body {
 }
 
 .features_box2 {
-  // background-color: #3734a9;
   display: flex;
   width: 100%;
-  height: 70vh;
+  height: 78vh;
   position: relative;
 
   .right {
-    // width: 50%;
     margin: 3rem 10rem;
     background: #4f46ba;
     width: 531px;
@@ -602,6 +599,108 @@ body {
 
         svg {
           margin-right: 0.7rem;
+        }
+      }
+    }
+  }
+}
+
+.features_box3 {
+  display: flex;
+  width: 100%;
+  height: 78vh;
+  position: relative;
+  .left {
+    display: flex;
+    width: 50%;
+    // background-color: #000;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 9rem;
+    margin-top: -10rem;
+
+    span {
+      color: #3734a9;
+      font-family: Manrope;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+    .title {
+      color: #000;
+      font-family: Manrope;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 800;
+      margin: 0.7rem 0;
+      line-height: 50px; /* 120% */
+      letter-spacing: -1.5px;
+    }
+    .des {
+      color: #505887;
+      font-family: Manrope;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      margin-bottom: 0.8rem;
+      line-height: 25px; /* 166.667% */
+      letter-spacing: -0.36px;
+    }
+    .box {
+      position: absolute;
+      top: 60%;
+      left: 16%;
+      width: 402px;
+      height: 177px;
+      border-radius: 20px;
+      background: #e0dcdc;
+      padding: 5rem;
+
+      img {
+        position: absolute;
+        top: -25px;
+        left: 3rem;
+        z-index: 5;
+        color: #000;
+      }
+      p {
+        color: #000;
+        position: absolute;
+        top: 50px;
+        left: 2rem;
+      }
+    }
+  }
+  .right {
+    width: 50%;
+    position: relative;
+    .box {
+      width: 60%;
+      height: 88%;
+      border-radius: 10px;
+      background: #dbf1fa;
+      position: relative;
+      top: 9%;
+      left: 12%;
+
+      .bg_img {
+        img {
+          position: absolute;
+          width: 309px;
+          height: 511px;
+          top: -18%;
+        }
+      }
+
+      .chart_img {
+        position: relative;
+
+        img {
+          margin-top: 41%;
+          margin-left: -34%;
+          border-radius: 10px;
         }
       }
     }
