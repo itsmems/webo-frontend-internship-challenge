@@ -72,10 +72,12 @@ body {
     }
   }
   .nav_body {
+    position: relative;
     &_row {
       display: flex;
 
       .nav_body_left_col {
+        position: relative;
         .nav_body_left_sec_2 {
           display: flex;
           align-items: center;
@@ -97,6 +99,28 @@ body {
               margin-right: 1rem;
               font-size: 17px;
             }
+          }
+        }
+      }
+      .nav_body_right_col {
+        position: absolute;
+
+        &_img_right {
+          position: relative;
+          img {
+            position: relative;
+            top: 212px;
+            left: 883px;
+            width: 156px;
+          }
+        }
+
+        &_img_left {
+          img {
+            position: relative;
+            top: -284px;
+            left: 801px;
+            width: 156px;
           }
         }
       }
@@ -164,19 +188,6 @@ body {
       }
     }
   }
-  // .nav_body_right_col{
-  //   position: absolute;
-
-  //   &_img_right{
-  //     position: absolute;
-  //     top: 0;
-  //   }
-
-  //   &_img_left{
-  //     position: absolute;
-  //     top: 0;
-  //   }
-  // }
 }
 
 .brand_section {
@@ -900,7 +911,8 @@ body {
       border-radius: 10px;
       border: 1px solid #cfcfcf;
       background: #fff;
-      width: 40%;
+      margin-right: 3rem;
+      width: 45%;
       height: 97%;
       margin-left: 8rem;
       position: absolute;
@@ -939,8 +951,7 @@ body {
   .box2 {
     border-radius: 10px;
     border: 1px solid #cfcfcf;
-    background: #f42727;
-    width: 40%;
+    width: 45%;
     height: 97%;
     margin-left: 8rem;
     position: absolute;

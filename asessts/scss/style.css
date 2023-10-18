@@ -63,8 +63,14 @@ body {
 .header .nav_buttons_right_bt a {
   color: #fff;
 }
+.header .nav_body {
+  position: relative;
+}
 .header .nav_body_row {
   display: flex;
+}
+.header .nav_body_row .nav_body_left_col {
+  position: relative;
 }
 .header .nav_body_row .nav_body_left_col .nav_body_left_sec_2 {
   display: flex;
@@ -86,6 +92,24 @@ body {
 .header .nav_body_row .nav_body_left_col .nav_body_left_sec_2 p svg {
   margin-right: 1rem;
   font-size: 17px;
+}
+.header .nav_body_row .nav_body_right_col {
+  position: absolute;
+}
+.header .nav_body_row .nav_body_right_col_img_right {
+  position: relative;
+}
+.header .nav_body_row .nav_body_right_col_img_right img {
+  position: relative;
+  top: 212px;
+  left: 883px;
+  width: 156px;
+}
+.header .nav_body_row .nav_body_right_col_img_left img {
+  position: relative;
+  top: -284px;
+  left: 801px;
+  width: 156px;
 }
 .header .nav_body_left_col {
   padding-left: 140px;
@@ -795,7 +819,8 @@ body {
   border-radius: 10px;
   border: 1px solid #cfcfcf;
   background: #fff;
-  width: 40%;
+  margin-right: 3rem;
+  width: 45%;
   height: 97%;
   margin-left: 8rem;
   position: absolute;
@@ -831,8 +856,7 @@ body {
 .testimonials .box2 {
   border-radius: 10px;
   border: 1px solid #cfcfcf;
-  background: #f42727;
-  width: 40%;
+  width: 45%;
   height: 97%;
   margin-left: 8rem;
   position: absolute;
