@@ -1387,4 +1387,119 @@ body {
   text-decoration: none;
   color: #fff;
   font-weight: 600;
+}
+
+footer {
+  width: 100%;
+  height: 80vh;
+  background-color: #fafbff;
+}
+footer .col {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+footer .col .section1 h3 {
+  color: #1b1c31;
+  font-family: Gilroy;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 133.333% */
+  letter-spacing: -0.42px;
+}
+footer .col .section1 p {
+  color: #757095;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+  letter-spacing: -0.32px;
+  margin-top: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+footer .col .section1 ul {
+  display: flex;
+}
+footer .col .section1 ul li {
+  list-style-type: none;
+  color: #3734a9;
+  padding-right: 1rem;
+}
+footer .col .section1 ul li i {
+  width: 20px;
+  height: 20px;
+}
+footer .col .section2 h3 {
+  color: #1b1c31;
+  font-family: Gilroy;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 133.333% */
+  letter-spacing: -0.42px;
+}
+footer .col .section2 ul li {
+  list-style-type: none;
+  padding-top: 0.8rem;
+  padding-bottom: 0.3rem;
+  color: #181433;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+footer .col .section3 h3 {
+  color: #1b1c31;
+  font-family: Gilroy;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 133.333% */
+  letter-spacing: -0.42px;
+}
+footer .col .section3 ul li {
+  list-style-type: none;
+  padding-top: 0.8rem;
+  padding-bottom: 0.3rem;
+  color: #181433;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+footer .col .section4 h3 {
+  color: #1b1c31;
+  font-family: Gilroy;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 133.333% */
+  letter-spacing: -0.42px;
+}
+footer .col .section4 input {
+  width: 270px;
+  height: 35px;
+  margin-top: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+footer .col .section4 button {
+  width: 100px;
+  height: 34px;
+  outline: none;
+  margin-left: 0;
+  background-color: #3734a9;
+}
+footer .col .section4 p {
+  color: #181433;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.32px;
 }/*# sourceMappingURL=style.css.map */
